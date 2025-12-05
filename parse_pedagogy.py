@@ -96,7 +96,7 @@ else:
     print(f"[INFO] Используем загруженный файл: {name}")
     html = content.decode("utf-8", errors="ignore")
 
-# === ПАРСИНГ И ВЫВОД ===
+# парсинг и вывод
 
 articles = parse_articles_from_html(html)
 
